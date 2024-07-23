@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
             className="w-16 h-15"
           />
           </span>
-        <p className="text-slate-600">All rights reserved.</p>
+        <p className="text-slate-500">All rights reserved.</p>
       </div>
     </footer>
   );

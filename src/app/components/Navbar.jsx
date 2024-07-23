@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -25,7 +26,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto border border-[#595d6d] top-0 left-0 right-0 z-10 bg-[#f77cf1d8] bg-opacity-200">
+    <nav className="fixed mx-auto border border-[#b47dbb] top-0 left-0 right-0 z-10 bg-[#b411acd8] bg-opacity-200">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
       <Link
   href={"/"}

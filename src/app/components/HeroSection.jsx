@@ -24,11 +24,11 @@ const HeroSection = () => {
               sequence={[
                 "Vuyiswa",
                 1000,
-                "a Web Developer",
+                "a Web Dev",
                 1000,
-                "a Software Developer",
+                "a Software Dev",
                 1000,
-                "a Fullstack Developer"
+                "a Fullstack Dev"
                 ,1000,
               ]}
               wrapper="span"
@@ -67,8 +67,8 @@ const HeroSection = () => {
               src="/images/hero-image.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
+              width={350}
+              height={350}
             />
           </div>
         </motion.div>
